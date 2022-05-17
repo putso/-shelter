@@ -1,0 +1,19 @@
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color:  unset;
+}
+li {
+    list-style-type: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}

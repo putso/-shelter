@@ -1,0 +1,245 @@
+.wrapper {
+
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.section {
+    padding-inline: 40px;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding-inline: 40px;
+}
+.menu__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+
+}
+.menu__item {
+    padding-bottom: 2px;
+}
+.menu__item > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+    color:  #545454;
+
+}
+.logo__top {
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    
+
+
+    color:  #545454;
+
+}
+.header_logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo_bottom {
+    color: #292929;
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    
+    text-align: center;
+
+}
+
+.menu__highlight {
+    border-bottom: 3px solid #F1CDB3;
+}
+.menu__highlight a {
+    color: black;
+}
+.article-pets {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    padding-bottom: 100px;
+
+}
+.article-pets__heading {
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    /* color-dark-l */
+    
+    color: #545454;
+    margin-top: 80px;
+    max-width: 400px;
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+    border-radius: 9px;
+    gap: 30px;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.card__name {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+    
+}
+.card__button {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px;
+    padding-inline: 45px;
+    width: max-content;
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.container-pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+.navigation div {
+    border-radius: 100%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    height: 52px;
+    width: 52px;
+    text-align: center;
+    justify-content: center;
+
+}
+.navigation__first {
+    outline: 2px solid #CDCDCD;
+    color: #CDCDCD;
+
+}
+.navigation__down {
+    outline: 2px solid #CDCDCD;
+    color: #CDCDCD;
+
+}
+.navigation__current {
+    background-color: #F1CDB3;
+
+}
+.navigation__up {
+    outline: 2px solid #F1CDB3;
+
+}
+.navigation__last {
+    outline: 2px solid #F1CDB3;
+
+}
+.footer {
+    background-image: url(../../assets/images/footer-gradient-background.png);
+    padding-inline: 40px;
+}
+.footer__info {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    letter-spacing: 0.06em;
+
+    /* color-primary */
+
+    color: #F1CDB3;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    line-height: 12px;
+}
+.footer__heading {
+    max-width: 280px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    letter-spacing: 0.06em;
+
+    /* color-light-xl */
+
+    color: #FFFFFF;
+
+}
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    max-width: 302px;
+}
+.footer__info {
+    display: flex;
+    gap: 20px;
+}
